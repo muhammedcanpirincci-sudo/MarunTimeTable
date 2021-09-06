@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QDialog" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>129</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+  background-color:black;
+color:white;
+}
+
+QPushButton:hover:!pressed
+{
+    border: 1px solid white;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Apply Changes</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <row>
+      <property name="text">
+       <string>Course Details</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>CourseID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Day</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Start Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>End Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>CourseLink</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Resource_Link</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Professor_Email</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Ta_Email</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

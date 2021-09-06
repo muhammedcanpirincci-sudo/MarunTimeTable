@@ -1,0 +1,11 @@
+user should be able to login with either email or student Id
+There is a problem with the dates and the database
+Encrypt passwords 
+clikcing the course should start the class
+number of character restriction should be implemented
+the events and notes part have not been made
+fix the design of the course change pop up
+fix profile picture issue === DONE ===  
+fix name and fullname issue === DONE ===
+implement changing email 
+implement changing passwords
