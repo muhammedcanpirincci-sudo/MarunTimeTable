@@ -1,2 +1,1 @@
-# CSE3044_TermProject
-Marun TimeTable ( MTT )
+Desktop TimeTable application for university students.
